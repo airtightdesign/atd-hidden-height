@@ -1,0 +1,29 @@
+{
+  "name": "atd-hidden-height",
+  "version": "1.0.0",
+  "description": "Get height of a hidden element",
+  "main": "./dist/atd-hidden-height.js",
+  "scripts": {
+    "build": "webpack --progress",
+    "build-debug": "webpack --progress --color --display-error-details",
+    "watch": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airtightdesign/atd-hidden-height.git"
+  },
+  "author": "John Graham <john@airtightdesign.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/airtightdesign/atd-hidden-height/issues"
+  },
+  "homepage": "https://github.com/airtightdesign/atd-hidden-height#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
