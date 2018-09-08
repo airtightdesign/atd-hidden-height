@@ -1,4 +1,8 @@
 export default function getHiddenHeight(el) {
+    if(!el || !el.cloneNode) {
+        return null;
+    }
+
     let clone = el.cloneNode(true);
     let height = 0;
     clone.style.overflow = 'visible';
