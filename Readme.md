@@ -1,6 +1,10 @@
 # ATD Hidden Height
 
-Call the fucntion by passing a dom node of hidden element. Returns the height of the element.
+## This package is deprecated.
+
+Please use [`get-hidden-height`](https://www.npmjs.com/package/get-hidden-height) instead.
+
+Call the function by passing a dom node of hidden element. Returns the height of the element.
 
 ## Installation
 
